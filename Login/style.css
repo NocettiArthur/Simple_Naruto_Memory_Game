@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    font-family: 'press start 2p', cursive;
+}
+
+body {
+    background-color: #000000;
+}
+
+.login-ninja {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login-ninja2 {
+    color: #cc4343;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.ninja-input {
+    border: 2px solid #000000;
+    border-radius: 8px;
+    color: #000000;
+    font-size: 1em;
+    margin-bottom: 15px;
+    max-width: 300px;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+}
+
+.ninja-button {
+    background-color: #f73636;
+    border-radius: 8px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 1em;
+    max-width: 300px;
+    padding: 5px;
+    width: 20%;
+}
+
+.ninja-button:disabled{
+    background-color: rgb(255, 255, 255);
+    color: #aaa;
+    cursor: auto;
+}
